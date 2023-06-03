@@ -23,6 +23,6 @@ $elliot = new Movie('billy elliot', 5, new Genre('drama', null) );
 var_dump($elliot);
 */
 
-var_dump($arrayMovies);ù
+var_dump($arrayMovies);
 
 ?>
