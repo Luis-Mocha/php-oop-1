@@ -25,4 +25,18 @@ var_dump($elliot);
 
 var_dump($arrayMovies);
 
+// foreach ($arrayMovies as $elem ) {
+//     foreach ($elem->genre as $subElem) {
+//         echo $subElem->name;
+//     }
+// }
+
+include_once __DIR__ . '/partials/htmlTop.php';
+
+include_once __DIR__ . '/partials/header.php';
+
+include_once __DIR__. '/partials/main.php';
+
+include_once __DIR__ . '/partials/htmlBottom.php';
+
 ?>
