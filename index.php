@@ -1,22 +1,11 @@
 <?php
-class Movie {
-    public $title;
-    public $genre;
-    public $vote;
 
-    function __construct( $_title, $_genre, $_vote) {
-        $this->title = $_title;
-        $this->genre = $_genre;
-        $this->vote = $_vote;
-    }
+include_once __DIR__ . '/models/movie.php';
+include_once __DIR__ . '/models/genre.php';
 
-    //metodo setter
-    function setVote($_vote){
-        $this->vote = $_vote;
-    }
-}
 
-$spider_man = new Movie('spider-man', 'cinecomic', 5);
+
+$spider_man = new Movie('spider-man', 5, new Genre('cinecomic', 'action') );
 
 var_dump($spider_man);
 
