@@ -9,9 +9,11 @@ main {
 
 .card-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly
 }
 
 .card {
     width: calc(100% / 3 - 20px);
+    margin-bottom: 20px;
 }
