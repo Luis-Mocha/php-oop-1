@@ -20,7 +20,7 @@ $spider_man = new Movie('spider-man', 'cinecomic', 5);
 
 var_dump($spider_man);
 
-//richiamo la funzione setter della calsse Movie
+//richiamo la funzione setter della classe Movie
 $spider_man->setVote(4);
 var_dump($spider_man);
 
