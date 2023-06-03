@@ -1,5 +1,7 @@
 <header class="container">
     <nav>
-        Movies
+        <div class="fs-1 fst-italic">
+            Movies
+        </div>
     </nav>
 </header>
