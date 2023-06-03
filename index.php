@@ -2,7 +2,7 @@
 
 include_once __DIR__ . '/database/db.php';
 
-var_dump($arrayMovies);
+// var_dump($arrayMovies);
 
 
 include_once __DIR__ . '/partials/htmlTop.php';
