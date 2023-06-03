@@ -1,5 +1,5 @@
-<header class="container">
-    <nav>
+<header>
+    <nav  class="container">
         <div class="fs-1 fst-italic">
             Movies
         </div>
