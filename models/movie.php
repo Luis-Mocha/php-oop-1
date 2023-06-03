@@ -5,7 +5,7 @@ class Movie {
     public $vote;
     public $genre;
 
-    function __construct( $_title, $_vote, Genre $_genre) {
+    function __construct( $_title, $_vote, $_genre) {
         $this->title = $_title;
         $this->vote = $_vote;
         $this->genre = $_genre;

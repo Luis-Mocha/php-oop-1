@@ -1,7 +1,5 @@
 <?php
 
-// include_once __DIR__ . '/models/movie.php';
-// include_once __DIR__ . '/models/genre.php';
 include_once __DIR__ . '/database/db.php';
 
 
@@ -25,6 +23,6 @@ $elliot = new Movie('billy elliot', 5, new Genre('drama', null) );
 var_dump($elliot);
 */
 
-var_dump($arrayMovies);
+var_dump($arrayMovies);ù
 
 ?>
